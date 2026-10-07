@@ -1,0 +1,55 @@
+// Ejercicio 1: r = a + (b - c) * d + ( e / f * g);
+let a = 10, b = 8, c = 3, d = 4, e = 12, f = 3, g = 2;
+let t1 = b - c;
+let t2 = t1 * d;
+let t3 = e / f;
+let t4 = t3 * g;
+let t5 = a + t2;
+let t6 = t5 + t4;
+let r = t6;
+console.log("r =", r);
+
+// Ejercicio 2: x = ((m * n) / (p + q)) * (r * k);
+let m = 6, n = 4, p = 2, q = 6, r_val = 3, k = 5;
+let t1_2 = m * n;
+let t2_2 = p + q;
+let t3_2 = t1_2 / t2_2;
+let t4_2 = r_val * k;
+let t5_2 = t3_2 * t4_2;
+let x = t5_2;
+console.log("x =", x);
+
+// Ejercicio 3: total = (a + b * c) * (d - e) - (f + g);
+let a_3 = 5, b_3 = 2, c_3 = 3, d_3 = 10, e_3 = 4, f_3 = 8, g_3 = 2;
+let t1_3 = b_3 * c_3;
+let t2_3 = a_3 + t1_3;
+let t3_3 = d_3 - e_3;
+let t4_3 = t2_3 * t3_3;
+let t5_3 = f_3 + g_3;
+let t6_3 = t4_3 - t5_3;
+let total = t6_3;
+console.log("total =", total);
+
+// Ejercicio 4: val = a * (b + (c / d)) - e * (f + g);
+let a_4 = 3, b_4 = 4, c_4 = 12, d_4 = 3, e_4 = 2, f_4 = 5, g_4 = 1;
+let t1_4 = c_4 / d_4;
+let t2_4 = b_4 + t1_4;
+let t3_4 = a_4 * t2_4;
+let t4_4 = f_4 + g_4;
+let t5_4 = e_4 * t4_4;
+let t6_4 = t3_4 - t5_4;
+let val = t6_4;
+console.log("val =", val);
+
+// Ejercicio 5: z = (x + y / o) * r + ((a * b + k) / (c + d));
+let x_5 = 4, y_5 = 12, o_5 = 3, r_5 = 2, a_5 = 5, b_5 = 4, k_5 = 10, c_5 = 3, d_5 = 3;
+let t1_5 = y_5 / o_5;
+let t2_5 = x_5 + t1_5;
+let t3_5 = t2_5 * r_5;
+let t4_5 = a_5 * b_5;
+let t5_5 = t4_5 + k_5;
+let t6_5 = c_5 + d_5;
+let t7_5 = t5_5 / t6_5;
+let t8_5 = t3_5 + t7_5;
+let z = t8_5;
+console.log("z =", z);
